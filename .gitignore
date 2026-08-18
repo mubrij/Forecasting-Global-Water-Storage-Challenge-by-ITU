@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local probes and editor files
+.patch_probe
+*.orig
+.ipynb_checkpoints/
+
+# Organizer data (large and/or redistribution restricted)
+Train*.csv
+Test*.csv
+SampleSubmission*.csv
+
+# Downloaded climate/reanalysis data
+external_cfsv2/
+external_nmme/
+external_noaa/
+
+# Generated model and validation artifacts
+artifacts_*/
+*.joblib
+*.pt
+*.pth
+*.npz
+*.pkl
+*.nc
+*.grb
+*.grb2
+
+# Intermediate submissions; retain only the final reproducible candidates
+Submission_*.csv
+!Submission_V27_CalibratedFiveModelBlend.csv
+!Submission_V28_DeepForecastBlend.csv
+!Submission_V29_MLDeepStackBlend.csv

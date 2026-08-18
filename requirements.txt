@@ -1,0 +1,13 @@
+numpy>=2.0,<3
+pandas>=2.2,<4
+scipy>=1.13,<2
+scikit-learn>=1.5,<2
+lightgbm>=4.3,<5
+xgboost>=2.0,<4
+catboost>=1.2,<2
+torch>=2.5,<3
+joblib>=1.4,<2
+xarray>=2025.0
+netCDF4>=1.7
+cfgrib>=0.9.15,<1
+eccodes>=2.47,<3
